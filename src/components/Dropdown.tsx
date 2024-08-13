@@ -31,7 +31,7 @@ interface Props {
 const Dropdown: React.FC<Props> = ({ value, onChange, options }) => {
     return (
         <select value={value} onChange={e => onChange(e.target.value)}>
-            <option value="" disabled>Select Subscription Type</option>
+            <option value="" disabled>Select Subscription Type (React)</option>
             {options.map(option => (
                 <option key={option} value={option}>{option}</option>
             ))}
