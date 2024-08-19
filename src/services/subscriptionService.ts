@@ -1,6 +1,6 @@
 import { Subscription } from "../types";
 
-const BASE_URL = 'http://subscriptionmanagement-demo-api.ap-south-1.elasticbeanstalk.com/api';
+const BASE_URL = 'http://13.201.6.111/api';
 
 // export const fetchSubscriptions = async (type: string): Promise<Subscription[]> => {
 //     const response = await fetch(`${BASE_URL}/subscriptionType/${type}`);
