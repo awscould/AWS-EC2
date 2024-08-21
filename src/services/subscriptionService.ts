@@ -1,6 +1,6 @@
 import { Subscription } from "../types";
 
-const BASE_URL = 'http://13.201.6.111/api';
+const BASE_URL = 'http://3.110.29.79/api';
 
 // export const fetchSubscriptions = async (type: string): Promise<Subscription[]> => {
 //     const response = await fetch(`${BASE_URL}/subscriptionType/${type}`);
